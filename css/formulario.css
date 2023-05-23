@@ -1,0 +1,56 @@
+body {
+    background-image: url('../img/wallpaper-login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+.formulario {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.568 );
+    color: #fff;
+}
+#user, #pass {
+    background: rgba(0, 0, 0, 0.027);
+    border-style: none;
+    border-radius: 60px;
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+    padding: 10px;
+}
+#pass:focus, #user:focus {
+    background: none;
+    outline: none;
+    box-shadow: none;
+}
+#pass:focus::-webkit-input-placeholder, #user:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+#user::placeholder, #pass::placeholder {
+   color: #fff;
+}
+.ingresar {
+    background:transparent;
+    padding: 10px;
+    font: 1em;
+    font-weight: 2em;
+    color: rgba(255, 255, 255, 0.815);
+    border:0.5px solid rgba(255, 255, 255, 0.671);
+    border-radius: 20px;
+    transition: 0.5s ease-in;
+    
+}
+.ingresar:hover {
+    background: rgba(255, 255, 255, 0.445);
+    color:rgba(150, 150, 150, 0.836);
+
+}
+.ingresar:focus {
+    background: rgba(255, 255, 255, 0.2);
+    outline: rgba(255, 255, 255, 0.2);
+
+}
